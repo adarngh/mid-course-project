@@ -12,7 +12,7 @@ header{
 div.middle{
     margin: auto;
     position: relative;
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
     text-align: center;
     
 }
@@ -24,16 +24,35 @@ div.img{
     /* background-color: blueviolet; */
 
 }
-img{
+img.top{
     
-    border-bottom-right-radius: 40px 40px;
+    border-bottom-right-radius: 30px 30px;
+    height: 355px;
+    width: 293;
 }
 div.inside{
     position:absolute;
-    background-color: brown;
+    background-color: rgba(150,150,150,0.8);
+    border-bottom-right-radius: 30px 30px;
     left: 38px;
     bottom: 16px;
     width: 248px;
     height: 97px;
-    
+    padding: 10px;
+    color:#fff;
+    text-align: right;
+    font-weight: bold;
+}
+h3{
+    font-size: 14px;
+    padding-block-start: 0;
+    margin: 0;
+    opacity: 1;
+}
+p{
+    font-weight: normal;
+    font-size: 13px;
+    margin: 0;
+    opacity: 1;
+     
 }
