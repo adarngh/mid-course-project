@@ -1,0 +1,39 @@
+*{
+    direction: rtl;
+    font-family: 'Arial (Hebrew)', Arial;
+    box-sizing:border-box;
+}
+header{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    background-color: grey;
+}
+div.middle{
+    margin: auto;
+    position: relative;
+    background-color: lightgrey;
+    text-align: center;
+    
+}
+div.img{
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    padding: 5px;
+    /* background-color: blueviolet; */
+
+}
+img{
+    
+    border-bottom-right-radius: 40px 40px;
+}
+div.inside{
+    position:absolute;
+    background-color: brown;
+    left: 38px;
+    bottom: 16px;
+    width: 248px;
+    height: 97px;
+    
+}
