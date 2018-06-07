@@ -9,7 +9,7 @@ header{
     color: white;
     background-color: grey;
 }
-div.middle{
+div.row{
     margin: auto;
     position: relative;
     /* background-color: lightgrey; */
@@ -24,11 +24,25 @@ div.img{
     /* background-color: blueviolet; */
 
 }
+div.img2{
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    padding: 5px;
+    /* width: 292px; */
+    /* background-color: blueviolet; */
+
+}
 img.top{
     
     border-bottom-right-radius: 30px 30px;
     height: 355px;
-    width: 293;
+    width: 293px;
+}
+img.bottom{
+    
+    width: 293px;
+    height: 216px;
 }
 div.inside{
     position:absolute;
@@ -55,4 +69,19 @@ p{
     margin: 0;
     opacity: 1;
      
+}
+div.link{
+    position: absolute;
+    font-size: 13px;
+    font-weight: normal;
+    text-decoration: underline;
+    left: 6px;
+    bottom: 3px;
+}
+a>img{
+    /* filter: invert(100%); */
+}
+a{
+    color:white;
+
 }
