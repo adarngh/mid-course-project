@@ -3,11 +3,19 @@
     font-family: 'Arial (Hebrew)', Arial;
     box-sizing:border-box;
 }
+body{
+    margin: 0;
+}
 header{
     font-size: 12px;
     font-weight: bold;
     color: white;
-    background-color: grey;
+    height: 105px;
+    /* background-color: grey; */
+    background-image: linear-gradient(
+      #909090,
+      #909090 80%,
+      #aaaaaa );
 }
 div.row{
     margin: auto;
