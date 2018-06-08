@@ -162,3 +162,22 @@ a{
     color:white;
 
 }
+h2{
+    color: #575757;
+    font-size: 14px;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+.commercial{
+    position: absolute;
+    top: 70px;
+    right: 30px;
+}
+span{
+    display: block;
+}
+span a{
+    color:#72716d;
+    
+}
