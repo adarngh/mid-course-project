@@ -252,3 +252,87 @@ footer{
     position: relative;
     top:5px;
 }
+
+
+
+
+
+
+
+#main{
+    position: relative;
+    
+}
+#formCol{
+    position: relative;
+    top: 100px;
+    right: 100px;
+}
+#form{
+    position: absolute;
+    width:385px;
+    height: 357px;
+    background-image: linear-gradient(
+        #ffffff,
+        #ececec);
+        font-size: 12px;
+        border: 1px solid grey;
+        border-top-right-radius: 30px 30px;
+        
+}
+#formheader1{
+    position: relative;
+    color:rgb(0,92,160);
+    font-size: 15px;
+    font-weight: bold;
+    right:20px;
+    top: 10px;
+}
+#formheader2{
+    position: relative;
+    color: rgb(109,109,109);
+    font-weight: bold;
+    width:350px;
+    right:20px;
+    top: 10px;
+
+}
+#formheader3{
+    position: relative; 
+    right:20px;
+    top: 10px;
+    font-size: 12px;
+}
+.field{
+    position: relative;
+    right: 70px;
+    top:10px;
+    margin: 13px 0;
+}
+.field>input,textarea{
+    position: absolute; 
+    left:150px;
+}
+.button{
+    position: absolute;
+    background-image: linear-gradient(
+        #35b0e5,
+        #2e6c98);
+    
+    font-weight: bold;
+    bottom: 30px;
+    left: 80px;
+    width: 50px;
+    height: 20px;
+    border-top-right-radius: 3px 3px;
+}
+button{
+    color: white;
+    background-color:rgba(0, 0, 0, 0.0);
+    border:0;
+    position: relative;
+    right: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    border-left: 1px solid white;
+}
