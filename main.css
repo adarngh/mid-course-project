@@ -97,7 +97,7 @@ div.img{
     position: relative;
     margin: 0;
     display: inline-block;
-    padding: 5px;
+    margin: 6px 4px;
     /* background-color: blueviolet; */
 
 }
@@ -105,10 +105,8 @@ div.img2{
     position: relative;
     margin: 0;
     display: inline-block;
-    padding: 5px;
-    /* width: 292px; */
-    /* background-color: blueviolet; */
-
+    /* padding:4px; */
+    
 }
 img.top{
     
@@ -119,7 +117,7 @@ img.top{
 img.bottom{
     
     width: 293px;
-    height: 216px;
+    height: 220px;
 }
 div.inside{
     position:absolute;
@@ -176,8 +174,30 @@ h2{
 }
 span{
     display: block;
+    
 }
 span a{
     color:#72716d;
-    
+    font-size: 13px;
+    text-decoration: underline;
+       
+}
+span img{
+    padding-right: 5px; 
+}
+#map{
+    position: absolute;
+    left: 30px;
+    bottom: 0px;
+}
+div.link2{
+    position: absolute;
+    font-size: 13px;
+    font-weight: normal;
+    text-decoration: underline;
+    left: 20px;
+    bottom: 30px;
+}
+div.link2>a:visited{
+    color: #575757;
 }
