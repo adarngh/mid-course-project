@@ -60,10 +60,11 @@ li{
     display: inline-block;
     font-size: 15px;
     font-weight: bold;    
-    padding:7.5px;
+    /* padding:7.5px; */
 }
 li>a{
     text-decoration:none;
+    padding:7.5px;
 }
 li>a>img{
    background-color: navy;
@@ -77,16 +78,7 @@ main{
     height: 670px;
     
 }
-div.footer{
-    position: fixed;
-    bottom: 0;
-    background-image: linear-gradient(
-        #aaaaaa ,
-        #909090 ,
-        #909090 80%); 
-        height: 38px;
-        width: 100%;
-}
+
 div.row{
     margin: auto;
     position: relative;
@@ -95,7 +87,6 @@ div.row{
 }
 div.img{
     position: relative;
-    margin: 0;
     display: inline-block;
     margin: 6px 4px;
     /* background-color: blueviolet; */
@@ -123,8 +114,8 @@ div.inside{
     position:absolute;
     background-color: rgba(150,150,150,0.8);
     border-bottom-right-radius: 30px 30px;
-    left: 38px;
-    bottom: 16px;
+    right: 5px;
+    bottom: 10px;
     width: 248px;
     height: 97px;
     padding: 10px;
@@ -196,8 +187,69 @@ div.link2{
     font-weight: normal;
     text-decoration: underline;
     left: 20px;
-    bottom: 30px;
+    bottom: 15px;
 }
 div.link2>a:visited{
     color: #575757;
 }
+
+.dropdown {
+    position: relative;
+  }
+  
+
+.dropdown-content {
+    position: absolute;  
+    /* background-color: #ccc; */
+    background-image: linear-gradient(
+        #aaaaaa ,
+        #909090 ,
+        #909090 80%); 
+    right: 10px;
+    top: 25px;
+    display: none;
+    z-index: 5;
+    text-align: right;
+    padding: 4px;    
+  }
+  .dropdown-content > a {
+      
+      text-decoration: none;     
+  }
+  .dropdown-content > span{
+    border: 0.4px solid rgb(185, 185, 185);
+    margin: 0;
+    padding: 0;
+  }
+  .dropdown:hover > .dropdown-content {
+    display: block;
+  }
+footer{
+    position: fixed;
+    bottom: 0;
+    background-image: linear-gradient(
+        #aaaaaa ,
+        #909090 ,
+        #909090 80%); 
+        height: 38px;
+        width: 100%;
+        /* display: inline-block; */
+}
+.footer{
+      width:900px;
+      margin: auto;
+      font-size: 14px;
+      padding-top: 7px;
+      
+}
+.footer a{
+    text-decoration: none;
+}
+#redfooter{
+    color:red;
+}
+.footer img{
+    position: relative;
+    top:5px;
+}
+ 
