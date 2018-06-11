@@ -259,14 +259,24 @@ footer{
 
 
 
-#main{
+.main{
     position: relative;
+    width: 900px;
+    height: 1200px;
+    margin: auto;
     
 }
 #formCol{
     position: relative;
+    width: 440px;
     top: 100px;
-    right: 100px;
+}
+#colheader{
+    font-size: 18px;
+    font-weight: bold;
+    color: grey;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
 }
 #form{
     position: absolute;
@@ -280,7 +290,7 @@ footer{
         border-top-right-radius: 30px 30px;
         
 }
-#formheader1{
+.formheader1{
     position: relative;
     color:rgb(0,92,160);
     font-size: 15px;
@@ -335,4 +345,22 @@ button{
     font-weight: bold;
     font-size: 14px;
     border-left: 1px solid white;
+}
+#misccol{
+    position: absolute;
+    width: 292px;
+    top: 100px;
+    left: 0;
+
+}
+.misc1{
+    position: absolute;
+    width:292px;
+    height: 175px;
+    background-image: linear-gradient(
+        #ffffff,
+        #ececec);
+        font-size: 12px;
+        border: 1px solid grey;
+        border-top-right-radius: 30px 30px; 
 }
