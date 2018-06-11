@@ -38,6 +38,12 @@ header{
 input{
     font-size: 13.3px;
 }
+label{
+    position: relative;
+    left: 20px;
+    color: #72716d;
+
+}
 .menu{
     position: absolute;
     bottom: 0px;
@@ -279,6 +285,11 @@ footer{
 }
 .sidebutton>a{
     color: rgb(80, 80, 80);
+    text-decoration: none;
+}
+.sidebutton>a:hover{
+    color: blue;
+    text-decoration: underline;
 }
 
 
@@ -287,7 +298,7 @@ footer{
 .main{
     position: relative;
     width: 900px;
-    height: 1200px;
+    height: 800px;
     margin: auto;
     
 }
