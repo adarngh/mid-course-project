@@ -67,7 +67,9 @@ li>a{
     padding:7.5px;
 }
 li>a>img{
-   background-color: navy;
+    position: relative;
+    top: 3px;
+   /* background-color: navy; */
 }
 li>img{
     position: relative;
@@ -144,6 +146,10 @@ div.link{
     left: 6px;
     bottom: 3px;
 }
+div.link>a:hover{
+    color: blue;
+    
+}
 a>img{
     /* filter: invert(100%); */
 }
@@ -176,6 +182,14 @@ span a{
 span img{
     padding-right: 5px; 
 }
+span:hover{
+    color: orange;
+    filter: invert(100%);
+}
+span>a:hover{
+    color: blue;
+    filter: invert(100%);
+}
 #map{
     position: absolute;
     left: 30px;
@@ -188,11 +202,22 @@ div.link2{
     text-decoration: underline;
     left: 20px;
     bottom: 15px;
+    
+}
+div.link2>a{
+    color: #575757;
+}
 }
 div.link2>a:visited{
     color: #575757;
 }
-
+div.link2>a:hover{
+    color: orange;
+    filter: invert(100%);
+}
+div.link2>a>img:hover{
+    filter: invert(100%);
+}
 .dropdown {
     position: relative;
   }
@@ -213,8 +238,8 @@ div.link2>a:visited{
     padding: 4px;    
   }
   .dropdown-content > a {
-      
-      text-decoration: none;     
+      text-decoration: none; 
+      margin: 0;
   }
   .dropdown-content > span{
     border: 0.4px solid rgb(185, 185, 185);
@@ -223,6 +248,12 @@ div.link2>a:visited{
   }
   .dropdown:hover > .dropdown-content {
     display: block;
+  }
+  .dropdown:hover>a{
+      color: rgb(0,92,160);
+  }
+  .dropdown-content>a:hover{
+      color: rgb(0,92,160);
   }
 footer{
     position: fixed;

@@ -67,7 +67,8 @@ li>a{
     padding:7.5px;
 }
 li>a>img{
-   background-color: navy;
+    position: relative;
+    top: 3px;
 }
 li>img{
     position: relative;
@@ -224,6 +225,12 @@ div.link2>a:visited{
   .dropdown:hover > .dropdown-content {
     display: block;
   }
+  .dropdown:hover>a{
+    color: rgb(0,92,160);
+}
+.dropdown-content>a:hover{
+    color: rgb(0,92,160);
+}
 footer{
     position: fixed;
     bottom: 0;

@@ -4,12 +4,13 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>תרגיל אמצע</title>
+    <title>תרגיל - עמוד בית</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
 </head>
 
-<body>
+<body onload = "startTimer()">
     <header>
         <div class="header">
             <p>
@@ -28,7 +29,7 @@
                 <ul>
                     <li>
                         <a href="./index.html">
-                            <img src="./images/menu_home_blue.jpg">
+                            <img src="./images/menu_home_blue1.png">
                         </a>
                     </li>
                     <li class="dropdown">
@@ -207,10 +208,10 @@
             <div class="img">
                 <img src="./images/cube_bg.png" width="292" height="216" alt="זיקוק" class="bottom">
                 <div>
-                    <h2>yellow click&pick;</h2>
+                    <h2 id="textToChange">yellow click&pick;</h2>
                 </div>
                 <div class="commercial">
-                    <img src="./images/banner_atar.jpg">
+                    <img id="imageToChange" src="./images/250X110571325734.jpg">
                 </div>
                 <div class="link2">
                     <a href="#">לפרטים נוספים
